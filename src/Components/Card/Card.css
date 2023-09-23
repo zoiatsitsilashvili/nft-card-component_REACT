@@ -1,0 +1,115 @@
+.card{
+    border-radius: 15px;
+    background: var(--very-dark-blue-card-bg, #15263F);
+    box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
+    width: 350px;
+    padding: 24px;
+}
+   
+.img-div{
+    position: relative;
+}
+.img-div:hover .overlay{
+    display: flex;
+    cursor: pointer;
+}
+
+.main-img{
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+}
+
+.overlay{
+    width: 302px;
+    height: 302px;
+    background: rgba(0, 255, 248, 0.5);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.title{
+    color: var(--White, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 24px;
+    line-height: 28px;
+    transition: 0.5s;
+}
+.title:hover{
+    color: #00FFF8;
+}
+
+.description{
+    color: var(--Soft-Blue, #8BACD9);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 144.444% */
+    margin-top: 16px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.info div{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.eth span{
+    color: var(--Cyan, #00FFF8);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.clock span{
+    color: var(--Soft-Blue, #8BACD9);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.author img{
+    width: 33px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    border: 1px solid var(--White, #FFF);
+    margin-top: 16px;
+}
+ .author p{
+    color: var(--Soft-Blue, #8BACD9);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ .author p span{
+    color: white;
+ }
+ .author p span:hover{
+    color: #00FFF8;
+ }
+ .hr{
+    border: none;
+    height: 1px;
+    margin-top: 24px;
+    background: var(--very-dark-blue-line, #2E405A);
+ }
