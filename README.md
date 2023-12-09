@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 
 # Links
 
-  Live Site URL: [](https://nft-card-component-react-nu.vercel.app/)   
+  Live Site URL: https://nft-card-component-react-nu.vercel.app/
   
 # My process
 # Built with
@@ -22,7 +22,7 @@ Currently, two official plugins are available:
 
 ## Author
 https://www.facebook.com/groups/bitcamp.ge
-- Website - 
+- Website - https://www.linkedin.com/in/zoia-tsitsilashvili
 - Frontend Mentor - https://www.bitcamp.ge/
 
 
